@@ -1,6 +1,6 @@
 import random
 
-user_action = input ("Enter a choice(Rock, Paper, Scissors): ")
+user_action = input ("Enter a choice(Rock, Paper, Scissors): ").capitalize()
 
 actions = ["Rock", "Paper", "Sciccors"]
 pc_action = random.choice(actions)
